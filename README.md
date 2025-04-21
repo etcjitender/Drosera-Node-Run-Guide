@@ -5,12 +5,6 @@ In this i  Will explain how to Run Drosera Network node Run
 
 📌Join Telegram For More - https://t.me/etccryptoairdrops
 
-
-🪂🪂
-
-**❤️❤️Follow our TG for More Early Alpha: https://telegram.me/feature_earning**
----
-
 # Recommended System Requirements
 * 2 CPU Cores
 * 4 GB RAM
