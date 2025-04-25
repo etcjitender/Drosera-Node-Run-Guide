@@ -9,7 +9,6 @@ In this i  Will explain how to Run Drosera Network node Run
 * 2 CPU Cores
 * 4 GB RAM
 * 20 GB Disk Space
-* Get started with a low-budget `VPS` for as low as $5! [Purchase here](https://my.hostbrr.com/order/forms/a/NTMxNw==)
 * Create your own `Ethereum Holesky RPC` in [Alchemy](https://dashboard.alchemy.com/) or [QuickNode](https://dashboard.quicknode.com/).
 
 ### Install Dependecies
