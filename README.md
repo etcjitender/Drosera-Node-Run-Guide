@@ -108,21 +108,6 @@ forge build
 
 ![image](https://github.com/user-attachments/assets/ab0bd1ec-c2b5-473a-adee-6c2d4975ba05)
 
-**Configured Your RPC**:
-```bash
-sed -i 's|ethereum_rpc = ".*"|ethereum_rpc = "YOUR_RPC_URL"|' /root/my-drosera-trap/drosera.toml
-```
-* Replace `YOUR_RPC_URL` with any Public RPC
-
-Randomly Select Public RPC:
-
-https://holesky.drpc.org    
-https://endpoints.omniatech.io/v1/eth/holesky/public   
-https://holesky.gateway.tenderly.co   
-https://ethereum-holesky-rpc.publicnode.com
-
-https://1rpc.io/holesky
-
 
 **Deploy Trap**:
 ```bash
@@ -137,7 +122,7 @@ DROSERA_PRIVATE_KEY=xxx drosera apply
 
 * **Existing Users**: If you've deployed a trap with your wallet previously, then you need to add your trap address to `drosera.toml` file, by adding this line: `address = "TRAP_ADDRESS"` in the bottom.
   * Ensure you replace `TRAP_ADDRESS` with your own trap address.
-  * If you don't know how to get your trap address, Follow this [step](https://github.com/AdityaNarayan02/Drosera-Node/blob/main/README.md#-error-apply-config-failed).
+  * If you don't know how to get your trap address, Follow this [step](https://github.com/0xmoei/Drosera-Network/blob/main/README.md#-error-apply-config-failed).
   * Finally, as an existing user, Ensure you filled out `drosera.toml` bottom lines like this:
   ```
   whitelist = ["Operator1_Address","Operator2_Address"]
@@ -262,8 +247,8 @@ sudo ufw allow 31314/tcp
 
 ## 6. Install & Run Operator
 **Choose one Installation Method:**
-* Method 1: [Install using Docker](https://github.com/AdityaNarayan02/Drosera-Node/blob/main/Installation.md#method-1-docker)
-* Method 2: [Install using SystemD](https://github.com/AdityaNarayan02/Drosera-Node/blob/main/README.md#method-2-systemd)
+* Method 1: [Install using Docker](https://github.com/0xmoei/Drosera-Network/blob/main/README.md#method-1-docker)
+* Method 2: [Install using SystemD](https://github.com/0xmoei/Drosera-Network/blob/main/README.md#method-2-systemd)
 
 ## Method 1: Docker
 ### 6-1-1: Configure Docker
@@ -647,8 +632,6 @@ docker compose up -d
 * Paste that address as the value for the corresponding trap’s address field in your drosera.toml file:
 
 ![image](https://github.com/user-attachments/assets/5934ce37-d144-4d0e-9084-8a789a6ebc01)
-## 8. Check Node Liveness
-Your node will start producing greeen blocks in the dashboard
 
 ![image](https://github.com/user-attachments/assets/9ad08265-0ea4-49f7-85e5-316677245254)
 
